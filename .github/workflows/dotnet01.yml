@@ -25,7 +25,7 @@ jobs:
       working-directory: src/CadCli.Api
     - name: Build
       run: dotnet build --no-restore
-       working-directory: src/CadCli.Api
+      working-directory: src/CadCli.Api
     - name: Test
       run: dotnet test --no-build --verbosity normal
-       working-directory: src/CadCli.Tests
+      working-directory: src/CadCli.Tests
